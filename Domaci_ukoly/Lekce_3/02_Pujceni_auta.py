@@ -17,6 +17,7 @@ peugeot = Auto("4A2 3020", "Peugeot 403 Cabrio", 47534, True)
 skoda = Auto("1P3 4747", "Škoda Octavia", 41253, True)
 
 zapujcka = input("Jakou značku vozidla si přejete zapůjčit: peugeot/skoda?")
-if zapujcka in Auto:
-    print(zapujcka.getInfo())
+
+pujc_auto(self.zapujcka)
+
 
