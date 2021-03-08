@@ -8,8 +8,8 @@ class Auto:
         self.zapujcka = zapujcka
     def pujc_auto(self):
         if self.zapujcka==True:
+            self.zapujcka = False
             return(f"Potvrzuji zapůjčení vozidla.")
-            self.zapujcka = false
         else:
             return(f"Vozidlo není k dispozici.")
 
@@ -18,6 +18,9 @@ skoda = Auto("1P3 4747", "Škoda Octavia", 41253, True)
 
 zapujcka = input("Jakou značku vozidla si přejete zapůjčit: peugeot/skoda?")
 
-pujc_auto(self.zapujcka)
+if zapujcka == skoda:
+    print(skoda.pujc_auto())
+else:
+    print(peugeot.pujc_auto())
 
 
